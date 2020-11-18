@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name mysensors_arduino)(type KiCad)(uri /Users/tyler/code/Arduino/space_console/hardware/library/mysensors_arduino.pretty)(options "")(descr ""))
+  (lib (name myComponents)(type KiCad)(uri /Users/tyler/code/Arduino/space_console/hardware/library/myComponents.pretty)(options "")(descr ""))
 )

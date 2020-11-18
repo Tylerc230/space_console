@@ -1,4 +1,4 @@
-19031278977654994
+19034490438034146
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83026,3 +83026,17 @@ varistor SIOV
 0
 2
 2
+myComponents
+LM2596_Adj_Stepdown_Module
+
+
+0
+4
+4
+mysensors_arduino
+pro_mini
+IC, ARDUINO_PRO_MINI x 0,6"
+DIL ARDUINO PRO MINI
+0
+31
+29
