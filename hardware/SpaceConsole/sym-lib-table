@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name mysensors_arduino)(type Legacy)(uri /Users/tyler/code/Arduino/space_console/hardware/library/mysensors_symbols/mysensors_arduino.lib)(options "")(descr ""))
+  (lib (name myComponents)(type Legacy)(uri /Users/tyler/code/Arduino/space_console/hardware/library/myComponents.lib)(options "")(descr ""))
 )

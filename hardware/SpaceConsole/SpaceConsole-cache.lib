@@ -51,6 +51,22 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# myComponents_LM2596_Adj_Stepdown_Module
+#
+DEF myComponents_LM2596_Adj_Stepdown_Module U 0 40 Y Y 1 F N
+F0 "U" 0 -750 50 H V C CNN
+F1 "myComponents_LM2596_Adj_Stepdown_Module" -50 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 -100 200 -650 0 1 0 f
+X IN+ 1 -250 -150 100 R 50 50 1 1 W
+X IN- 2 -250 -300 100 R 50 50 1 1 P
+X OUT+ 3 -250 -450 100 R 50 50 1 1 w
+X OUT- 4 -250 -600 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # mysensors_arduino_ArduinoProMini
 #
 DEF mysensors_arduino_ArduinoProMini IC 0 40 Y Y 1 F N

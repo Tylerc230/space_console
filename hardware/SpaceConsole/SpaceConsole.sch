@@ -302,4 +302,45 @@ Wire Wire Line
 	6250 3450 7550 3450
 Wire Wire Line
 	7550 3450 7550 3700
+$Comp
+L myComponents:LM2596_Adj_Stepdown_Module U?
+U 1 1 5FBA7ED4
+P 7200 5650
+F 0 "U?" H 7428 5326 50  0000 L CNN
+F 1 "LM2596_Adj_Stepdown_Module" H 7428 5235 50  0000 L CNN
+F 2 "" H 7200 5650 50  0001 C CNN
+F 3 "" H 7200 5650 50  0001 C CNN
+	1    7200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FBA8E0E
+P 6950 6100
+F 0 "#PWR?" H 6950 5950 50  0001 C CNN
+F 1 "VCC" V 6965 6227 50  0000 L CNN
+F 2 "" H 6950 6100 50  0001 C CNN
+F 3 "" H 6950 6100 50  0001 C CNN
+	1    6950 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBAA224
+P 6950 6250
+F 0 "#PWR?" H 6950 6000 50  0001 C CNN
+F 1 "GND" V 6955 6122 50  0000 R CNN
+F 2 "" H 6950 6250 50  0001 C CNN
+F 3 "" H 6950 6250 50  0001 C CNN
+	1    6950 6250
+	0    1    1    0   
+$EndComp
+Text Label 7850 5150 2    50   ~ 0
+Battery+
+Text Label 6950 5800 2    50   ~ 0
+Battery+
+Text Label 7850 5250 2    50   ~ 0
+Battery-
+Text Label 6950 5950 2    50   ~ 0
+Battery-
 $EndSCHEMATC
