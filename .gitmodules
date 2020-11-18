@@ -1,0 +1,3 @@
+[submodule "hardware/library/mysensors_symbols"]
+	path = hardware/library/mysensors_symbols
+	url = git@github.com:mysensors-kicad/mysensors_symbols.git
