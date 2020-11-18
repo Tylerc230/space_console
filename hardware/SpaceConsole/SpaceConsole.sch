@@ -343,4 +343,51 @@ Text Label 7850 5250 2    50   ~ 0
 Battery-
 Text Label 6950 5950 2    50   ~ 0
 Battery-
+$Comp
+L Connector:Conn_01x09_Male J?
+U 1 1 5FBB2A1F
+P 5450 6400
+F 0 "J?" H 5558 6981 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 5558 6890 50  0000 C CNN
+F 2 "" H 5450 6400 50  0001 C CNN
+F 3 "~" H 5450 6400 50  0001 C CNN
+	1    5450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBB4227
+P 5650 6000
+F 0 "#PWR?" H 5650 5750 50  0001 C CNN
+F 1 "GND" V 5655 5872 50  0000 R CNN
+F 2 "" H 5650 6000 50  0001 C CNN
+F 3 "" H 5650 6000 50  0001 C CNN
+	1    5650 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FBB4E89
+P 5650 6100
+F 0 "#PWR?" H 5650 5950 50  0001 C CNN
+F 1 "VCC" V 5665 6228 50  0000 L CNN
+F 2 "" H 5650 6100 50  0001 C CNN
+F 3 "" H 5650 6100 50  0001 C CNN
+	1    5650 6100
+	0    1    1    0   
+$EndComp
+Text Label 5650 6200 0    50   ~ 0
+SwitchB
+Text Label 5650 6300 0    50   ~ 0
+SwitchC
+Text Label 5650 6400 0    50   ~ 0
+KnobA0
+Text Label 5650 6500 0    50   ~ 0
+KnobA1
+Text Label 5650 6600 0    50   ~ 0
+KnobB0
+Text Label 5650 6700 0    50   ~ 0
+KnobB1
+Text Label 5650 6800 0    50   ~ 0
+HornOut
 $EndSCHEMATC

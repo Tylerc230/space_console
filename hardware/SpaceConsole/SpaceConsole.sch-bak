@@ -303,7 +303,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 3450 7550 3700
 $Comp
-L Regulator_Switching:LM2596_Adj_Stepdown_Module U?
+L myComponents:LM2596_Adj_Stepdown_Module U?
 U 1 1 5FBA7ED4
 P 7200 5650
 F 0 "U?" H 7428 5326 50  0000 L CNN
@@ -343,4 +343,15 @@ Text Label 7850 5250 2    50   ~ 0
 Battery-
 Text Label 6950 5950 2    50   ~ 0
 Battery-
+$Comp
+L Connector:Conn_01x09_Male J?
+U 1 1 5FBB2A1F
+P 5450 6400
+F 0 "J?" H 5558 6981 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 5558 6890 50  0000 C CNN
+F 2 "" H 5450 6400 50  0001 C CNN
+F 3 "~" H 5450 6400 50  0001 C CNN
+	1    5450 6400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
