@@ -283,43 +283,39 @@ Wire Wire Line
 $Comp
 L myComponents:LM2596_Adj_Stepdown_Module U1
 U 1 1 5FBA7ED4
-P 7200 5650
-F 0 "U1" H 7428 5326 50  0000 L CNN
-F 1 "LM2596_Adj_Stepdown_Module" H 7428 5235 50  0000 L CNN
-F 2 "myComponents:LM2596_Adj_Stepdown_Module" H 7200 5650 50  0001 C CNN
-F 3 "" H 7200 5650 50  0001 C CNN
-	1    7200 5650
+P 7400 5350
+F 0 "U1" H 7628 5026 50  0000 L CNN
+F 1 "LM2596_Adj_Stepdown_Module" H 7628 4935 50  0000 L CNN
+F 2 "myComponents:LM2596_Adj_Stepdown_Module" H 7400 5350 50  0001 C CNN
+F 3 "" H 7400 5350 50  0001 C CNN
+	1    7400 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR06
 U 1 1 5FBA8E0E
-P 6950 6100
-F 0 "#PWR06" H 6950 5950 50  0001 C CNN
-F 1 "VCC" V 6965 6227 50  0000 L CNN
-F 2 "" H 6950 6100 50  0001 C CNN
-F 3 "" H 6950 6100 50  0001 C CNN
-	1    6950 6100
+P 7150 5800
+F 0 "#PWR06" H 7150 5650 50  0001 C CNN
+F 1 "VCC" V 7165 5927 50  0000 L CNN
+F 2 "" H 7150 5800 50  0001 C CNN
+F 3 "" H 7150 5800 50  0001 C CNN
+	1    7150 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 5FBAA224
-P 6950 6250
-F 0 "#PWR07" H 6950 6000 50  0001 C CNN
-F 1 "GND" V 6955 6122 50  0000 R CNN
-F 2 "" H 6950 6250 50  0001 C CNN
-F 3 "" H 6950 6250 50  0001 C CNN
-	1    6950 6250
+P 7150 5950
+F 0 "#PWR07" H 7150 5700 50  0001 C CNN
+F 1 "GND" V 7155 5822 50  0000 R CNN
+F 2 "" H 7150 5950 50  0001 C CNN
+F 3 "" H 7150 5950 50  0001 C CNN
+	1    7150 5950
 	0    1    1    0   
 $EndComp
-Text Label 7850 5150 2    50   ~ 0
-Battery+
-Text Label 6950 5800 2    50   ~ 0
-Battery+
 Text Label 7850 5250 2    50   ~ 0
 Battery-
-Text Label 6950 5950 2    50   ~ 0
+Text Label 7150 5650 2    50   ~ 0
 Battery-
 $Comp
 L Connector:Conn_01x09_Male J8
@@ -390,4 +386,21 @@ F 3 "" H 4350 5250 50  0001 C CNN
 	1    4350 5250
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector:Conn_01x02_Male J9
+U 1 1 5FC093C0
+P 6700 5400
+F 0 "J9" H 6808 5581 50  0000 C CNN
+F 1 "Power_Switch" H 6808 5490 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6700 5400 50  0001 C CNN
+F 3 "~" H 6700 5400 50  0001 C CNN
+	1    6700 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5400 6900 5150
+Wire Wire Line
+	6900 5150 7850 5150
+Wire Wire Line
+	6900 5500 7150 5500
 $EndSCHEMATC
