@@ -27,24 +27,13 @@ $EndComp
 $Comp
 L power:VCC #PWR01
 U 1 1 5FB7FD72
-P 4350 3050
-F 0 "#PWR01" H 4350 2900 50  0001 C CNN
-F 1 "VCC" V 4365 3177 50  0000 L CNN
-F 2 "" H 4350 3050 50  0001 C CNN
-F 3 "" H 4350 3050 50  0001 C CNN
-	1    4350 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5FB80DDB
 P 4350 3350
-F 0 "#PWR02" H 4350 3100 50  0001 C CNN
-F 1 "GND" V 4355 3222 50  0000 R CNN
+F 0 "#PWR01" H 4350 3200 50  0001 C CNN
+F 1 "VCC" V 4365 3477 50  0000 L CNN
 F 2 "" H 4350 3350 50  0001 C CNN
 F 3 "" H 4350 3350 50  0001 C CNN
 	1    4350 3350
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Text Label 6250 3250 0    50   ~ 0
 LeftFrontLED
@@ -156,17 +145,6 @@ F 1 "SwitchA" H 8130 4701 50  0000 L CNN
 F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 8050 4800 50  0001 C CNN
 F 3 "~" H 8050 4800 50  0001 C CNN
 	1    8050 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J7
-U 1 1 5FB97F65
-P 8050 5150
-F 0 "J7" H 8130 5142 50  0000 L CNN
-F 1 "BatteryIN" H 8130 5051 50  0000 L CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 8050 5150 50  0001 C CNN
-F 3 "~" H 8050 5150 50  0001 C CNN
-	1    8050 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -390,4 +368,26 @@ Text Label 5650 6700 0    50   ~ 0
 KnobB1
 Text Label 5650 6800 0    50   ~ 0
 HornOut
+$Comp
+L Connector:Screw_Terminal_01x02 J7
+U 1 1 5FB97F65
+P 8050 5150
+F 0 "J7" H 8130 5142 50  0000 L CNN
+F 1 "Battery" H 8130 5051 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00045_1x02_P5.00mm_Horizontal" H 8050 5150 50  0001 C CNN
+F 3 "~" H 8050 5150 50  0001 C CNN
+	1    8050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FBFD67E
+P 4350 5250
+F 0 "#PWR0101" H 4350 5000 50  0001 C CNN
+F 1 "GND" V 4355 5122 50  0000 R CNN
+F 2 "" H 4350 5250 50  0001 C CNN
+F 3 "" H 4350 5250 50  0001 C CNN
+	1    4350 5250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
