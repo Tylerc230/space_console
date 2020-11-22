@@ -5,7 +5,7 @@
     (drawings 4)
     (tracks 71)
     (zones 0)
-    (modules 15)
+    (modules 14)
     (nets 32)
   )
 
@@ -169,25 +169,6 @@
     (uvia_drill 0.1)
     (add_net /Battery-)
     (add_net VCC)
-  )
-
-  (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB6EEE3)
-    (at 133.35 125.73)
-    (descr "Mounting Hole 3.2mm, no annular, M3")
-    (tags "mounting hole 3.2mm no annular m3")
-    (attr virtual)
-    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
-    (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
-    (fp_text user %R (at 0 0) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
   (module MountingHole:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5FB6EEB2)
@@ -1629,7 +1610,7 @@
         (xy 199.98404 80.634435) (xy 183.78009 80.634435) (xy 183.660535 80.51488) (xy 183.431727 80.361995) (xy 183.17749 80.256686)
         (xy 182.907592 80.203) (xy 182.632408 80.203) (xy 182.36251 80.256686) (xy 182.108273 80.361995) (xy 181.879465 80.51488)
         (xy 181.68488 80.709465) (xy 181.531995 80.938273) (xy 181.426686 81.19251) (xy 181.373 81.462408) (xy 134.747 81.462408)
-        (xy 134.747 78.867) (xy 203.073 78.867)
+        (xy 134.747 79.224566) (xy 134.774729 79.206038) (xy 135.086038 78.894729) (xy 135.104566 78.867) (xy 203.073 78.867)
       )
     )
   )

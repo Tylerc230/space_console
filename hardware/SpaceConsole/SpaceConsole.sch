@@ -318,53 +318,6 @@ Battery-
 Text Label 7150 5650 2    50   ~ 0
 Battery-
 $Comp
-L Connector:Conn_01x09_Male J8
-U 1 1 5FBB2A1F
-P 5450 6400
-F 0 "J8" H 5558 6981 50  0000 C CNN
-F 1 "Conn_01x09_Male" H 5558 6890 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 5450 6400 50  0001 C CNN
-F 3 "~" H 5450 6400 50  0001 C CNN
-	1    5450 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5FBB4227
-P 5650 6000
-F 0 "#PWR04" H 5650 5750 50  0001 C CNN
-F 1 "GND" V 5655 5872 50  0000 R CNN
-F 2 "" H 5650 6000 50  0001 C CNN
-F 3 "" H 5650 6000 50  0001 C CNN
-	1    5650 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR05
-U 1 1 5FBB4E89
-P 5650 6100
-F 0 "#PWR05" H 5650 5950 50  0001 C CNN
-F 1 "VCC" V 5665 6228 50  0000 L CNN
-F 2 "" H 5650 6100 50  0001 C CNN
-F 3 "" H 5650 6100 50  0001 C CNN
-	1    5650 6100
-	0    1    1    0   
-$EndComp
-Text Label 5650 6200 0    50   ~ 0
-SwitchB
-Text Label 5650 6300 0    50   ~ 0
-SwitchC
-Text Label 5650 6400 0    50   ~ 0
-KnobA0
-Text Label 5650 6500 0    50   ~ 0
-KnobA1
-Text Label 5650 6600 0    50   ~ 0
-KnobB0
-Text Label 5650 6700 0    50   ~ 0
-KnobB1
-Text Label 5650 6800 0    50   ~ 0
-HornOut
-$Comp
 L Connector:Screw_Terminal_01x02 J7
 U 1 1 5FB97F65
 P 8050 5150
@@ -403,4 +356,158 @@ Wire Wire Line
 	6900 5150 7850 5150
 Wire Wire Line
 	6900 5500 7150 5500
+$Comp
+L Device:Rotary_Encoder_Switch SW2
+U 1 1 5FC31CA7
+P 6000 5900
+F 0 "SW2" H 6000 6267 50  0000 C CNN
+F 1 "KnobA" H 6000 6176 50  0000 C CNN
+F 2 "" H 5850 6060 50  0001 C CNN
+F 3 "~" H 6000 6160 50  0001 C CNN
+	1    6000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 5FC32224
+P 5950 7350
+F 0 "SW1" H 5950 7717 50  0000 C CNN
+F 1 "KnobB" H 5950 7626 50  0000 C CNN
+F 2 "" H 5800 7510 50  0001 C CNN
+F 3 "~" H 5950 7610 50  0001 C CNN
+	1    5950 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5FC3BF74
+P 6000 6500
+F 0 "SW3" H 6000 6785 50  0000 C CNN
+F 1 "SwitchB" H 6000 6694 50  0000 C CNN
+F 2 "" H 6000 6700 50  0001 C CNN
+F 3 "~" H 6000 6700 50  0001 C CNN
+	1    6000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5FC3C79A
+P 6000 6850
+F 0 "SW4" H 6000 7135 50  0000 C CNN
+F 1 "SwitchC" H 6000 7044 50  0000 C CNN
+F 2 "" H 6000 7050 50  0001 C CNN
+F 3 "~" H 6000 7050 50  0001 C CNN
+	1    6000 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Buzzer BZ1
+U 1 1 5FC3E295
+P 4800 7200
+F 0 "BZ1" H 4952 7229 50  0000 L CNN
+F 1 "Horn" H 4952 7138 50  0000 L CNN
+F 2 "" V 4775 7300 50  0001 C CNN
+F 3 "~" V 4775 7300 50  0001 C CNN
+	1    4800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FC3F88F
+P 4700 7300
+F 0 "#PWR02" H 4700 7050 50  0001 C CNN
+F 1 "GND" V 4705 7172 50  0000 R CNN
+F 2 "" H 4700 7300 50  0001 C CNN
+F 3 "" H 4700 7300 50  0001 C CNN
+	1    4700 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5FC40A22
+P 5650 7350
+F 0 "#PWR018" H 5650 7100 50  0001 C CNN
+F 1 "GND" V 5655 7222 50  0000 R CNN
+F 2 "" H 5650 7350 50  0001 C CNN
+F 3 "" H 5650 7350 50  0001 C CNN
+	1    5650 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5FC4124B
+P 5700 5900
+F 0 "#PWR019" H 5700 5650 50  0001 C CNN
+F 1 "GND" V 5705 5772 50  0000 R CNN
+F 2 "" H 5700 5900 50  0001 C CNN
+F 3 "" H 5700 5900 50  0001 C CNN
+	1    5700 5900
+	0    1    1    0   
+$EndComp
+Text Label 5800 6500 2    50   ~ 0
+SwitchB
+$Comp
+L power:GND #PWR020
+U 1 1 5FC43290
+P 6200 6500
+F 0 "#PWR020" H 6200 6250 50  0001 C CNN
+F 1 "GND" V 6205 6372 50  0000 R CNN
+F 2 "" H 6200 6500 50  0001 C CNN
+F 3 "" H 6200 6500 50  0001 C CNN
+	1    6200 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5FC437ED
+P 6200 6850
+F 0 "#PWR021" H 6200 6600 50  0001 C CNN
+F 1 "GND" V 6205 6722 50  0000 R CNN
+F 2 "" H 6200 6850 50  0001 C CNN
+F 3 "" H 6200 6850 50  0001 C CNN
+	1    6200 6850
+	0    -1   -1   0   
+$EndComp
+Text Label 5800 6850 2    50   ~ 0
+SwitchC
+Text Label 5650 7250 2    50   ~ 0
+KnobB1
+Text Label 5650 7450 2    50   ~ 0
+KnobB0
+Text Label 5700 5800 2    50   ~ 0
+KnobA1
+Text Label 5700 6000 2    50   ~ 0
+KnobA0
+$Comp
+L power:VCC #PWR023
+U 1 1 5FC47472
+P 6300 6000
+F 0 "#PWR023" H 6300 5850 50  0001 C CNN
+F 1 "VCC" V 6315 6128 50  0000 L CNN
+F 2 "" H 6300 6000 50  0001 C CNN
+F 3 "" H 6300 6000 50  0001 C CNN
+	1    6300 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR022
+U 1 1 5FC479DD
+P 6250 7450
+F 0 "#PWR022" H 6250 7300 50  0001 C CNN
+F 1 "VCC" V 6265 7578 50  0000 L CNN
+F 2 "" H 6250 7450 50  0001 C CNN
+F 3 "" H 6250 7450 50  0001 C CNN
+	1    6250 7450
+	0    1    1    0   
+$EndComp
+Text Label 6250 4750 0    50   ~ 0
+SwitchD
+Text Label 6250 4850 0    50   ~ 0
+SwitchE
+Text Label 6300 5800 0    50   ~ 0
+SwitchD
+Text Label 6250 7250 0    50   ~ 0
+SwitchE
+Text Label 4700 7100 2    50   ~ 0
+HornOut
 $EndSCHEMATC
