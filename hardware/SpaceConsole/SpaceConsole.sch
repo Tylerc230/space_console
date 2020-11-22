@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mysensors_arduino:ArduinoProMini IC1
-U 1 1 5FB7EAFA
-P 4500 2450
-F 0 "IC1" H 4550 3900 40  0000 C CNN
-F 1 "ArduinoProMini" H 4550 3824 40  0000 C CNN
-F 2 "mysensors_arduino:pro_mini" H 4500 2450 30  0001 C CIN
-F 3 "http://www.arduino.cc/en/uploads/Main/Arduino-Pro-Mini-schematic.pdf" H 4550 3733 60  0000 C CNN
-	1    4500 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR01
 U 1 1 5FB7FD72
 P 3600 1650
@@ -519,8 +508,6 @@ NoConn ~ 3600 3450
 NoConn ~ 3600 3250
 NoConn ~ 3600 3150
 NoConn ~ 3600 1350
-NoConn ~ 5500 1350
-NoConn ~ 5500 1450
 NoConn ~ 5500 3250
 NoConn ~ 5500 3350
 NoConn ~ 5500 3450
@@ -563,4 +550,26 @@ Text Label 6550 3450 0    50   ~ 0
 Battery+
 Text Label 5700 5550 0    50   ~ 0
 Battery+
+$Comp
+L mysensors_arduino:ArduinoProMini IC1
+U 1 1 5FB7EAFA
+P 4500 2450
+F 0 "IC1" H 4550 3900 40  0000 C CNN
+F 1 "ArduinoProMini" H 4550 3824 40  0000 C CNN
+F 2 "mysensors_arduino:pro_mini" H 4500 2450 30  0001 C CIN
+F 3 "http://www.arduino.cc/en/uploads/Main/Arduino-Pro-Mini-schematic.pdf" H 4550 3733 60  0000 C CNN
+	1    4500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J8
+U 1 1 5FCB646F
+P 5700 1450
+F 0 "J8" H 5672 1332 50  0000 R CNN
+F 1 "Serial_Port" H 5672 1423 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5700 1450 50  0001 C CNN
+F 3 "~" H 5700 1450 50  0001 C CNN
+	1    5700 1450
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
