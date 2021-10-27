@@ -1,0 +1,3 @@
+make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libpthread.so', needed by '/workspace/devel/.private/cpp_test/lib/cpp_test/talker'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

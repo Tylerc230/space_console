@@ -1,0 +1,217 @@
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake:116 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake:116 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake:116 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake:116 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake:116 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake:116 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake:116 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake:116 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake:116 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake:116 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake:111 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake:111 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake:111 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake:111 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake:111 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake:111 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake:111 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake:111 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake:111 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake:26 (list):
+  list sub-command REMOVE_ITEM requires two or more arguments.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:211 (compiler_id_detection)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:230 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake:32 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake:111 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+[31m[1mCMake Error[0m at /workspace/src/cpp_test/CMakeLists.txt:10 (find_package):
+  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "catkin", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "catkin" with any
+  of the following names:
+
+    catkinConfig.cmake
+    catkin-config.cmake
+
+  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+  "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
