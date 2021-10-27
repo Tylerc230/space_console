@@ -1,2 +1,0 @@
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc-ar rcs libencoder.a  CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc-ranlib libencoder.a

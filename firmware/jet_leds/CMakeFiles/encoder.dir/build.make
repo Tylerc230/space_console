@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tyler/Documents/Arduino/jet_leds
+CMAKE_SOURCE_DIR = /Users/tyler/code/Arduino/space_console/firmware/jet_leds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tyler/Documents/Arduino/jet_leds
+CMAKE_BINARY_DIR = /Users/tyler/code/Arduino/space_console/firmware/jet_leds
 
 # Include any dependencies generated for this target.
 include CMakeFiles/encoder.dir/depend.make
@@ -57,30 +57,30 @@ include CMakeFiles/encoder.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/encoder.dir/flags.make
 
-CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj: CMakeFiles/encoder.dir/flags.make
-CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj: /Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj -c /Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp
+CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.obj: CMakeFiles/encoder.dir/flags.make
+CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.obj: /Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.obj"
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.obj -c /Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp
 
-CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.i"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp > CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.i
+CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.i"
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp > CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.i
 
-CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.s"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp -o CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.s
+CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.s"
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp -o CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.s
 
 # Object files for target encoder
 encoder_OBJECTS = \
-"CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj"
+"CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.obj"
 
 # External object files for target encoder
 encoder_EXTERNAL_OBJECTS =
 
-libencoder.a: CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj
+libencoder.a: CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.obj
 libencoder.a: CMakeFiles/encoder.dir/build.make
 libencoder.a: CMakeFiles/encoder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libencoder.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libencoder.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/encoder.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/encoder.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/encoder.dir/clean:
 .PHONY : CMakeFiles/encoder.dir/clean
 
 CMakeFiles/encoder.dir/depend:
-	cd /Users/tyler/Documents/Arduino/jet_leds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds/CMakeFiles/encoder.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/tyler/code/Arduino/space_console/firmware/jet_leds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/encoder.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/encoder.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tyler/Documents/Arduino/jet_leds
+CMAKE_SOURCE_DIR = /Users/tyler/code/Arduino/space_console/firmware/jet_leds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tyler/Documents/Arduino/jet_leds
+CMAKE_BINARY_DIR = /Users/tyler/code/Arduino/space_console/firmware/jet_leds
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Jet_LEDs.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/Jet_LEDs.dir/flags.make
 
 CMakeFiles/Jet_LEDs.dir/inputs.cpp.obj: CMakeFiles/Jet_LEDs.dir/flags.make
 CMakeFiles/Jet_LEDs.dir/inputs.cpp.obj: inputs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Jet_LEDs.dir/inputs.cpp.obj"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/inputs.cpp.obj -c /Users/tyler/Documents/Arduino/jet_leds/inputs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Jet_LEDs.dir/inputs.cpp.obj"
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/inputs.cpp.obj -c /Users/tyler/code/Arduino/space_console/firmware/jet_leds/inputs.cpp
 
 CMakeFiles/Jet_LEDs.dir/inputs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Jet_LEDs.dir/inputs.cpp.i"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/Documents/Arduino/jet_leds/inputs.cpp > CMakeFiles/Jet_LEDs.dir/inputs.cpp.i
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/code/Arduino/space_console/firmware/jet_leds/inputs.cpp > CMakeFiles/Jet_LEDs.dir/inputs.cpp.i
 
 CMakeFiles/Jet_LEDs.dir/inputs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Jet_LEDs.dir/inputs.cpp.s"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/Documents/Arduino/jet_leds/inputs.cpp -o CMakeFiles/Jet_LEDs.dir/inputs.cpp.s
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/code/Arduino/space_console/firmware/jet_leds/inputs.cpp -o CMakeFiles/Jet_LEDs.dir/inputs.cpp.s
 
 CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.obj: CMakeFiles/Jet_LEDs.dir/flags.make
 CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.obj: jet_leds.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.obj"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.obj -c /Users/tyler/Documents/Arduino/jet_leds/jet_leds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.obj"
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.obj -c /Users/tyler/code/Arduino/space_console/firmware/jet_leds/jet_leds.cpp
 
 CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.i"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/Documents/Arduino/jet_leds/jet_leds.cpp > CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.i
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/code/Arduino/space_console/firmware/jet_leds/jet_leds.cpp > CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.i
 
 CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.s"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/Documents/Arduino/jet_leds/jet_leds.cpp -o CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.s
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/code/Arduino/space_console/firmware/jet_leds/jet_leds.cpp -o CMakeFiles/Jet_LEDs.dir/jet_leds.cpp.s
 
 CMakeFiles/Jet_LEDs.dir/leds.cpp.obj: CMakeFiles/Jet_LEDs.dir/flags.make
 CMakeFiles/Jet_LEDs.dir/leds.cpp.obj: leds.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Jet_LEDs.dir/leds.cpp.obj"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/leds.cpp.obj -c /Users/tyler/Documents/Arduino/jet_leds/leds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Jet_LEDs.dir/leds.cpp.obj"
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/leds.cpp.obj -c /Users/tyler/code/Arduino/space_console/firmware/jet_leds/leds.cpp
 
 CMakeFiles/Jet_LEDs.dir/leds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Jet_LEDs.dir/leds.cpp.i"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/Documents/Arduino/jet_leds/leds.cpp > CMakeFiles/Jet_LEDs.dir/leds.cpp.i
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/code/Arduino/space_console/firmware/jet_leds/leds.cpp > CMakeFiles/Jet_LEDs.dir/leds.cpp.i
 
 CMakeFiles/Jet_LEDs.dir/leds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Jet_LEDs.dir/leds.cpp.s"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/Documents/Arduino/jet_leds/leds.cpp -o CMakeFiles/Jet_LEDs.dir/leds.cpp.s
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/code/Arduino/space_console/firmware/jet_leds/leds.cpp -o CMakeFiles/Jet_LEDs.dir/leds.cpp.s
 
 CMakeFiles/Jet_LEDs.dir/program_runner.cpp.obj: CMakeFiles/Jet_LEDs.dir/flags.make
 CMakeFiles/Jet_LEDs.dir/program_runner.cpp.obj: program_runner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Jet_LEDs.dir/program_runner.cpp.obj"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/program_runner.cpp.obj -c /Users/tyler/Documents/Arduino/jet_leds/program_runner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Jet_LEDs.dir/program_runner.cpp.obj"
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/program_runner.cpp.obj -c /Users/tyler/code/Arduino/space_console/firmware/jet_leds/program_runner.cpp
 
 CMakeFiles/Jet_LEDs.dir/program_runner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Jet_LEDs.dir/program_runner.cpp.i"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/Documents/Arduino/jet_leds/program_runner.cpp > CMakeFiles/Jet_LEDs.dir/program_runner.cpp.i
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/code/Arduino/space_console/firmware/jet_leds/program_runner.cpp > CMakeFiles/Jet_LEDs.dir/program_runner.cpp.i
 
 CMakeFiles/Jet_LEDs.dir/program_runner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Jet_LEDs.dir/program_runner.cpp.s"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/Documents/Arduino/jet_leds/program_runner.cpp -o CMakeFiles/Jet_LEDs.dir/program_runner.cpp.s
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/code/Arduino/space_console/firmware/jet_leds/program_runner.cpp -o CMakeFiles/Jet_LEDs.dir/program_runner.cpp.s
 
 CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.obj: CMakeFiles/Jet_LEDs.dir/flags.make
 CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.obj: programs/ColorProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.obj"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.obj -c /Users/tyler/Documents/Arduino/jet_leds/programs/ColorProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.obj"
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.obj -c /Users/tyler/code/Arduino/space_console/firmware/jet_leds/programs/ColorProgram.cpp
 
 CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.i"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/Documents/Arduino/jet_leds/programs/ColorProgram.cpp > CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.i
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/code/Arduino/space_console/firmware/jet_leds/programs/ColorProgram.cpp > CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.i
 
 CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.s"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/Documents/Arduino/jet_leds/programs/ColorProgram.cpp -o CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.s
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/code/Arduino/space_console/firmware/jet_leds/programs/ColorProgram.cpp -o CMakeFiles/Jet_LEDs.dir/programs/ColorProgram.cpp.s
 
 CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.obj: CMakeFiles/Jet_LEDs.dir/flags.make
 CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.obj: programs/RainProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.obj"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.obj -c /Users/tyler/Documents/Arduino/jet_leds/programs/RainProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.obj"
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.obj -c /Users/tyler/code/Arduino/space_console/firmware/jet_leds/programs/RainProgram.cpp
 
 CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.i"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/Documents/Arduino/jet_leds/programs/RainProgram.cpp > CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.i
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tyler/code/Arduino/space_console/firmware/jet_leds/programs/RainProgram.cpp > CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.i
 
 CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.s"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/Documents/Arduino/jet_leds/programs/RainProgram.cpp -o CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.s
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tyler/code/Arduino/space_console/firmware/jet_leds/programs/RainProgram.cpp -o CMakeFiles/Jet_LEDs.dir/programs/RainProgram.cpp.s
 
 # Object files for target Jet_LEDs
 Jet_LEDs_OBJECTS = \
@@ -160,16 +160,16 @@ Jet_LEDs.elf: libencoder.a
 Jet_LEDs.elf: libSoftwareSerial.a
 Jet_LEDs.elf: libpro_16mhzatmega328_core_lib.a
 Jet_LEDs.elf: CMakeFiles/Jet_LEDs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Jet_LEDs.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Jet_LEDs.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Jet_LEDs.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating EEP image"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-objcopy -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0 /Users/tyler/Documents/Arduino/jet_leds/Jet_LEDs.elf /Users/tyler/Documents/Arduino/jet_leds/Jet_LEDs.eep
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-objcopy -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0 /Users/tyler/code/Arduino/space_console/firmware/jet_leds/Jet_LEDs.elf /Users/tyler/code/Arduino/space_console/firmware/jet_leds/Jet_LEDs.eep
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating HEX image"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-objcopy -O ihex -R .eeprom /Users/tyler/Documents/Arduino/jet_leds/Jet_LEDs.elf /Users/tyler/Documents/Arduino/jet_leds/Jet_LEDs.hex
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-objcopy -O ihex -R .eeprom /Users/tyler/code/Arduino/space_console/firmware/jet_leds/Jet_LEDs.elf /Users/tyler/code/Arduino/space_console/firmware/jet_leds/Jet_LEDs.hex
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Calculating Jet_LEDs size"
-	/usr/local/Cellar/cmake/3.15.4/bin/cmake -DFIRMWARE_IMAGE=/Users/tyler/Documents/Arduino/jet_leds/Jet_LEDs.elf -DEEPROM_IMAGE=/Users/tyler/Documents/Arduino/jet_leds/Jet_LEDs.eep -DMCU=atmega328p -DAVRSIZE_PROGRAM=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-size -P /Users/tyler/tools/Arduino-CMake-NG/cmake/Platform/Other/FirmwareSizeCalculator.cmake
+	/usr/local/Cellar/cmake/3.15.4/bin/cmake -DFIRMWARE_IMAGE=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/Jet_LEDs.elf -DEEPROM_IMAGE=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/Jet_LEDs.eep -DMCU=atmega328p -DAVRSIZE_PROGRAM=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-size -P /Users/tyler/tools/Arduino-CMake-NG/cmake/Platform/Other/FirmwareSizeCalculator.cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Uploading Jet_LEDs target"
-	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avrdude "-C/Applications/Arduino.app/Contents/Java/hardware/tools/avr/etc/avrdude.conf" -v -patmega328p -carduino "-P/dev/cu.usbserial-A1014HUC" -b57600 -D -Uflash:w:"/Users/tyler/Documents/Arduino/jet_leds/Jet_LEDs.hex":i -Ueeprom:w:"/Users/tyler/Documents/Arduino/jet_leds/Jet_LEDs.eep":i
+	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avrdude "-C/Applications/Arduino.app/Contents/Java/hardware/tools/avr/etc/avrdude.conf" -v -patmega328p -carduino "-P/dev/cu.usbserial-A1014HUC" -b57600 -D -Uflash:w:"/Users/tyler/code/Arduino/space_console/firmware/jet_leds/Jet_LEDs.hex":i -Ueeprom:w:"/Users/tyler/code/Arduino/space_console/firmware/jet_leds/Jet_LEDs.eep":i
 
 # Rule to build all files generated by this target.
 CMakeFiles/Jet_LEDs.dir/build: Jet_LEDs.elf
@@ -181,6 +181,6 @@ CMakeFiles/Jet_LEDs.dir/clean:
 .PHONY : CMakeFiles/Jet_LEDs.dir/clean
 
 CMakeFiles/Jet_LEDs.dir/depend:
-	cd /Users/tyler/Documents/Arduino/jet_leds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds/CMakeFiles/Jet_LEDs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/tyler/code/Arduino/space_console/firmware/jet_leds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/Jet_LEDs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Jet_LEDs.dir/depend
 

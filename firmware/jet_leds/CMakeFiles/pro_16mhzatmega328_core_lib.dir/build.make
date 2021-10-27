@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tyler/Documents/Arduino/jet_leds
+CMAKE_SOURCE_DIR = /Users/tyler/code/Arduino/space_console/firmware/jet_leds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tyler/Documents/Arduino/jet_leds
+CMAKE_BINARY_DIR = /Users/tyler/code/Arduino/space_console/firmware/jet_leds
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pro_16mhzatmega328_core_lib.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.i: cmake_force
@@ -72,7 +72,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.i: cmake_force
@@ -85,7 +85,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.i: cmake_force
@@ -98,7 +98,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.i: cmake_force
@@ -111,7 +111,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.i: cmake_force
@@ -124,7 +124,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.i: cmake_force
@@ -137,7 +137,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.i: cmake_force
@@ -150,7 +150,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.i: cmake_force
@@ -163,7 +163,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.i: cmake_force
@@ -176,7 +176,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.i: cmake_force
@@ -189,7 +189,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.i: cmake_force
@@ -202,7 +202,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.i: cmake_force
@@ -215,7 +215,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj   -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.i: cmake_force
@@ -228,7 +228,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.i: cmake_force
@@ -241,7 +241,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.i: cmake_force
@@ -254,7 +254,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.i: cmake_force
@@ -267,7 +267,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.obj   -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.i: cmake_force
@@ -280,7 +280,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.i: cmake_force
@@ -293,7 +293,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.i: cmake_force
@@ -306,7 +306,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.obj   -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.i: cmake_force
@@ -319,7 +319,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj   -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.i: cmake_force
@@ -332,7 +332,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj   -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.i: cmake_force
@@ -345,12 +345,12 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.S.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.S.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building ASM object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building ASM object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.S.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.S.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.S
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj   -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.i: cmake_force
@@ -363,7 +363,7 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Jav
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj: CMakeFiles/pro_16mhzatmega328_core_lib.dir/flags.make
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj   -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.i: cmake_force
@@ -432,7 +432,7 @@ libpro_16mhzatmega328_core_lib.a: CMakeFiles/pro_16mhzatmega328_core_lib.dir/App
 libpro_16mhzatmega328_core_lib.a: CMakeFiles/pro_16mhzatmega328_core_lib.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj
 libpro_16mhzatmega328_core_lib.a: CMakeFiles/pro_16mhzatmega328_core_lib.dir/build.make
 libpro_16mhzatmega328_core_lib.a: CMakeFiles/pro_16mhzatmega328_core_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library libpro_16mhzatmega328_core_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library libpro_16mhzatmega328_core_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pro_16mhzatmega328_core_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pro_16mhzatmega328_core_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -446,6 +446,6 @@ CMakeFiles/pro_16mhzatmega328_core_lib.dir/clean:
 .PHONY : CMakeFiles/pro_16mhzatmega328_core_lib.dir/clean
 
 CMakeFiles/pro_16mhzatmega328_core_lib.dir/depend:
-	cd /Users/tyler/Documents/Arduino/jet_leds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds/CMakeFiles/pro_16mhzatmega328_core_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/tyler/code/Arduino/space_console/firmware/jet_leds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/pro_16mhzatmega328_core_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pro_16mhzatmega328_core_lib.dir/depend
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -DFASTLED_RGBW   -c -g -Os -w -std=gnu++11 -fpermissive -fno-excepti
 
 CXX_DEFINES = -DARDUINO_ARCH_AVR
 
-CXX_INCLUDES = -I/Users/tyler/Documents/Arduino/libraries/Encoder -I/Users/tyler/Documents/Arduino/libraries/Encoder/utility -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs 
+CXX_INCLUDES = -I/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder -I/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/utility -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs 
 

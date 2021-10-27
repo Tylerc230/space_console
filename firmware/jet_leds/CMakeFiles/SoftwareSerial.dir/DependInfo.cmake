@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp" "/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles/SoftwareSerial.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.obj"
+  "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp" "/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/SoftwareSerial.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,7 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles/pro_16mhzatmega328_core_lib.dir/DependInfo.cmake"
+  "/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/pro_16mhzatmega328_core_lib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

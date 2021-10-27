@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tyler/Documents/Arduino/jet_leds
+CMAKE_SOURCE_DIR = /Users/tyler/code/Arduino/space_console/firmware/jet_leds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tyler/Documents/Arduino/jet_leds
+CMAKE_BINARY_DIR = /Users/tyler/code/Arduino/space_console/firmware/jet_leds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tyler/Documents/Arduino/jet_leds/CMakeFiles /Users/tyler/Documents/Arduino/jet_leds/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles /Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tyler/Documents/Arduino/jet_leds/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -859,302 +859,302 @@ Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSe
 	$(MAKE) -f CMakeFiles/SoftwareSerial.dir/build.make CMakeFiles/SoftwareSerial.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.s
 .PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.s
 
-Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.obj: Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.obj: Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.obj
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.obj
-
-# target to build an object file
-Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj:
-	$(MAKE) -f CMakeFiles/encoder.dir/build.make CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj
-.PHONY : Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj
-
-Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.i: Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.i
-
-.PHONY : Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.i
-
-# target to preprocess a source file
-Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.i:
-	$(MAKE) -f CMakeFiles/encoder.dir/build.make CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.i
-.PHONY : Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.i
-
-Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.s: Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.s
-
-.PHONY : Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.s
-
-# target to generate assembly for a file
-Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.s:
-	$(MAKE) -f CMakeFiles/encoder.dir/build.make CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.s
-.PHONY : Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.s
-
-Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.obj: Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.obj
-
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.obj
 
 # target to build an object file
-Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.obj:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.obj
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.obj:
+	$(MAKE) -f CMakeFiles/encoder.dir/build.make CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.obj
 
-Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.i: Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.i: Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.i
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.i
 
 # target to preprocess a source file
-Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.i:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.i
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.i:
+	$(MAKE) -f CMakeFiles/encoder.dir/build.make CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.i
 
-Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.s: Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.s: Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.s
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.s
 
 # target to generate assembly for a file
-Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.s:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.s
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.s:
+	$(MAKE) -f CMakeFiles/encoder.dir/build.make CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.s
 
-Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.obj: Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.obj: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.obj
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.obj
 
 # target to build an object file
-Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.obj:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.obj
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.obj:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.obj
 
-Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.i: Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.i: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.i
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.i
 
 # target to preprocess a source file
-Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.i:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.i
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.i:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.i
 
-Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.s: Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.s: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.s
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.s
 
 # target to generate assembly for a file
-Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.s:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.s
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.s:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.cpp.s
 
-Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.obj: Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.obj: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.obj
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.obj
 
 # target to build an object file
-Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.obj:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.obj
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.obj:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.obj
 
-Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.i: Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.i: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.i
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.i
 
 # target to preprocess a source file
-Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.i:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.i
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.i:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.i
 
-Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.s: Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.s: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.s
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.s
 
 # target to generate assembly for a file
-Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.s:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.s
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.s:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.cpp.s
 
-Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.obj: Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.obj: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.obj
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.obj
 
 # target to build an object file
-Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.obj:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.obj
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.obj:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.obj
 
-Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.i: Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.i: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.i
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.i
 
 # target to preprocess a source file
-Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.i:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.i
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.i:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.i
 
-Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.s: Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.s: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.s
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.s
 
 # target to generate assembly for a file
-Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.s:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.s
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.s:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.cpp.s
 
-Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.obj: Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.obj: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.obj
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.obj
 
 # target to build an object file
-Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.obj:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.obj
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.obj:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.obj
 
-Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.i: Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.i: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.i
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.i
 
 # target to preprocess a source file
-Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.i:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.i
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.i:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.i
 
-Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.s: Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.s: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.s
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.s
 
 # target to generate assembly for a file
-Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.s:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.s
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.s:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.cpp.s
 
-Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.obj: Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.obj: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.obj
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.obj
 
 # target to build an object file
-Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.obj:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.obj
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.obj:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.obj
 
-Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.i: Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.i: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.i
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.i
 
 # target to preprocess a source file
-Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.i:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.i
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.i:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.i
 
-Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.s: Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.s: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.s
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.s
 
 # target to generate assembly for a file
-Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.s:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.s
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.s:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.cpp.s
 
-Users/tyler/Documents/Arduino/libraries/FastLED/noise.obj: Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.obj: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.obj
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/noise.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.obj
 
 # target to build an object file
-Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.obj:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.obj
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.obj:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.obj
 
-Users/tyler/Documents/Arduino/libraries/FastLED/noise.i: Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.i: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.i
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/noise.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.i
 
 # target to preprocess a source file
-Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.i:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.i
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.i:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.i
 
-Users/tyler/Documents/Arduino/libraries/FastLED/noise.s: Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.s: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.s
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/noise.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.s
 
 # target to generate assembly for a file
-Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.s:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.s
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/noise.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.s:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.cpp.s
 
-Users/tyler/Documents/Arduino/libraries/FastLED/platforms.obj: Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.obj: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.obj
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/platforms.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.obj
 
 # target to build an object file
-Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.obj:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.obj
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.obj:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.obj
 
-Users/tyler/Documents/Arduino/libraries/FastLED/platforms.i: Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.i: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.i
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/platforms.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.i
 
 # target to preprocess a source file
-Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.i:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.i
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.i:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.i
 
-Users/tyler/Documents/Arduino/libraries/FastLED/platforms.s: Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.s: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.s
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/platforms.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.s
 
 # target to generate assembly for a file
-Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.s:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.s
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/platforms.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.s:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.cpp.s
 
-Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.obj: Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.obj: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.obj
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.obj
 
 # target to build an object file
-Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.obj:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.obj
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.obj:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.obj
 
-Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.i: Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.i: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.i
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.i
 
 # target to preprocess a source file
-Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.i:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.i
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.i:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.i
 
-Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.s: Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.s: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.s
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.s
 
 # target to generate assembly for a file
-Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.s:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.s
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.s:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.cpp.s
 
-Users/tyler/Documents/Arduino/libraries/FastLED/wiring.obj: Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.obj: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.obj
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/wiring.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.obj
 
 # target to build an object file
-Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.obj:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.obj
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.obj
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.obj:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.obj
 
-Users/tyler/Documents/Arduino/libraries/FastLED/wiring.i: Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.i: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.i
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/wiring.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.i
 
 # target to preprocess a source file
-Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.i:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.i
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.i
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.i:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.i
 
-Users/tyler/Documents/Arduino/libraries/FastLED/wiring.s: Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.s: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.s
 
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/wiring.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.s
 
 # target to generate assembly for a file
-Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.s:
-	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.s
-.PHONY : Users/tyler/Documents/Arduino/libraries/FastLED/wiring.cpp.s
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.s:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.cpp.s
+
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.obj: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.obj
+
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.obj
+
+# target to build an object file
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.obj:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.obj
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.obj
+
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.i: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.i
+
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.i
+
+# target to preprocess a source file
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.i:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.i
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.i
+
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.s: Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.s
+
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.s
+
+# target to generate assembly for a file
+Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.s:
+	$(MAKE) -f CMakeFiles/fastled.dir/build.make CMakeFiles/fastled.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.s
+.PHONY : Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.cpp.s
 
 inputs.obj: inputs.cpp.obj
 
@@ -1407,39 +1407,39 @@ help:
 	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.obj"
 	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.i"
 	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.s"
-	@echo "... Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.obj"
-	@echo "... Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.i"
-	@echo "... Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.s"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.obj"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.i"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/FastLED.s"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.obj"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.i"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/bitswap.s"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.obj"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.i"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/colorpalettes.s"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.obj"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.i"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/colorutils.s"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.obj"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.i"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/hsv2rgb.s"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.obj"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.i"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/lib8tion.s"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/noise.obj"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/noise.i"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/noise.s"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/platforms.obj"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/platforms.i"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/platforms.s"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.obj"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.i"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/power_mgt.s"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/wiring.obj"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/wiring.i"
-	@echo "... Users/tyler/Documents/Arduino/libraries/FastLED/wiring.s"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.obj"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.i"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.s"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.obj"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.i"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/FastLED.s"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.obj"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.i"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/bitswap.s"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.obj"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.i"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorpalettes.s"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.obj"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.i"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/colorutils.s"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.obj"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.i"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/hsv2rgb.s"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.obj"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.i"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/lib8tion.s"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.obj"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.i"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/noise.s"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.obj"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.i"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/platforms.s"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.obj"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.i"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/power_mgt.s"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.obj"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.i"
+	@echo "... Users/tyler/code/Arduino/space_console/firmware/libraries/FastLED/wiring.s"
 	@echo "... inputs.obj"
 	@echo "... inputs.i"
 	@echo "... inputs.s"

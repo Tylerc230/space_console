@@ -108,39 +108,39 @@ avr/pgmspace.h
 avr/pgmspace.h
 -
 
-/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp
 Encoder.h
-/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.h
 
-/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.h
 Arduino.h
-/Users/tyler/Documents/Arduino/libraries/Encoder/Arduino.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Arduino.h
 Wiring.h
-/Users/tyler/Documents/Arduino/libraries/Encoder/Wiring.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Wiring.h
 WProgram.h
-/Users/tyler/Documents/Arduino/libraries/Encoder/WProgram.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/WProgram.h
 pins_arduino.h
-/Users/tyler/Documents/Arduino/libraries/Encoder/pins_arduino.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/pins_arduino.h
 utility/direct_pin_read.h
-/Users/tyler/Documents/Arduino/libraries/Encoder/utility/direct_pin_read.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/utility/direct_pin_read.h
 utility/interrupt_pins.h
-/Users/tyler/Documents/Arduino/libraries/Encoder/utility/interrupt_pins.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/utility/interrupt_pins.h
 utility/interrupt_config.h
-/Users/tyler/Documents/Arduino/libraries/Encoder/utility/interrupt_config.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/utility/interrupt_config.h
 
-/Users/tyler/Documents/Arduino/libraries/Encoder/utility/direct_pin_read.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/utility/direct_pin_read.h
 scss_registers.h
-/Users/tyler/Documents/Arduino/libraries/Encoder/utility/scss_registers.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/utility/scss_registers.h
 portable.h
-/Users/tyler/Documents/Arduino/libraries/Encoder/utility/portable.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/utility/portable.h
 avr/pgmspace.h
-/Users/tyler/Documents/Arduino/libraries/Encoder/utility/avr/pgmspace.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/utility/avr/pgmspace.h
 
-/Users/tyler/Documents/Arduino/libraries/Encoder/utility/interrupt_config.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/utility/interrupt_config.h
 avr/io.h
 -
 avr/interrupt.h
 -
 
-/Users/tyler/Documents/Arduino/libraries/Encoder/utility/interrupt_pins.h
+/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/utility/interrupt_pins.h
 

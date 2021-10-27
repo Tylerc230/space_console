@@ -1,4 +1,4 @@
-# Install script for directory: /Users/tyler/Documents/Arduino/jet_leds
+# Install script for directory: /Users/tyler/code/Arduino/space_console/firmware/jet_leds
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/tyler/Documents/Arduino/jet_leds/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/tyler/code/Arduino/space_console/firmware/jet_leds/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

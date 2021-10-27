@@ -26,8 +26,8 @@
 //mod select, blue headers
 //pin 13 doesn't work
 #define KNOB_B_PIN_0 12
-  //Could move this to pin 17 would need to update board
-#define KNOB_B_PIN_1 13
+  //Could move this to pin 17(A3) would need to update board
+#define KNOB_B_PIN_1 17
 
 #define NOSE_LED_COUNT 27
 #define WING_LED_COUNT 29

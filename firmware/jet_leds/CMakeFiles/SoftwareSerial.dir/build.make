@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.15.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tyler/Documents/Arduino/jet_leds
+CMAKE_SOURCE_DIR = /Users/tyler/code/Arduino/space_console/firmware/jet_leds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tyler/Documents/Arduino/jet_leds
+CMAKE_BINARY_DIR = /Users/tyler/code/Arduino/space_console/firmware/jet_leds
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SoftwareSerial.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/SoftwareSerial.dir/flags.make
 
 CMakeFiles/SoftwareSerial.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.obj: CMakeFiles/SoftwareSerial.dir/flags.make
 CMakeFiles/SoftwareSerial.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.obj: /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SoftwareSerial.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SoftwareSerial.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.obj"
 	/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SoftwareSerial.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.obj -c /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp
 
 CMakeFiles/SoftwareSerial.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.i: cmake_force
@@ -80,7 +80,7 @@ SoftwareSerial_EXTERNAL_OBJECTS =
 libSoftwareSerial.a: CMakeFiles/SoftwareSerial.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.obj
 libSoftwareSerial.a: CMakeFiles/SoftwareSerial.dir/build.make
 libSoftwareSerial.a: CMakeFiles/SoftwareSerial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tyler/Documents/Arduino/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libSoftwareSerial.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libSoftwareSerial.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/SoftwareSerial.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SoftwareSerial.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/SoftwareSerial.dir/clean:
 .PHONY : CMakeFiles/SoftwareSerial.dir/clean
 
 CMakeFiles/SoftwareSerial.dir/depend:
-	cd /Users/tyler/Documents/Arduino/jet_leds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds /Users/tyler/Documents/Arduino/jet_leds/CMakeFiles/SoftwareSerial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/tyler/code/Arduino/space_console/firmware/jet_leds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds /Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/SoftwareSerial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SoftwareSerial.dir/depend
 

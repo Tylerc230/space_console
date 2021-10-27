@@ -71,6 +71,6 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/7.3.0/include;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/7.3.0/include-fixed;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include")
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;m;c")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/7.3.0;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/lib")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;m;c;atmega328p")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/7.3.0/avr5;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/lib/avr5;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/7.3.0;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

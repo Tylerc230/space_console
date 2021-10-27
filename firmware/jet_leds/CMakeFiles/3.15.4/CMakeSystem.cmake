@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Darwin-19.0.0")
+set(CMAKE_HOST_SYSTEM "Darwin-20.6.0")
 set(CMAKE_HOST_SYSTEM_NAME "Darwin")
-set(CMAKE_HOST_SYSTEM_VERSION "19.0.0")
+set(CMAKE_HOST_SYSTEM_VERSION "20.6.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/Users/tyler/tools/Arduino-CMake-NG/cmake/Arduino-Toolchain.cmake")

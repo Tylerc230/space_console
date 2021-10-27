@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/encoder.dir/Users/tyler/Documents/Arduino/libraries/Encoder/Encoder.cpp.obj"
+  "CMakeFiles/encoder.dir/Users/tyler/code/Arduino/space_console/firmware/libraries/Encoder/Encoder.cpp.obj"
   "libencoder.a"
   "libencoder.pdb"
 )
