@@ -2,6 +2,7 @@
 #![no_main]
 
 use panic_halt as _;
+mod hal_timer;
 
 #[arduino_hal::entry]
 fn main() -> ! {
