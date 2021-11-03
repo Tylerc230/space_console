@@ -12,5 +12,7 @@ if [ "$#" -lt 1 ]; then
     exit 1
 fi
 
+pushd avr
 cargo build
-avrdude -C ~/Library/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf -q  -v -b 57600 -patmega328p -carduino -P/dev/cu.usbserial-A1014HUC -D "-Uflash:w:$1"
+popd
+avrdude -C ~/Library/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf -q  -v -b 57600 -patmega328p -carduino -P/dev/cu.usbserial-3 -D "-Uflash:w:$1"
