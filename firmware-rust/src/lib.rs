@@ -1,5 +1,6 @@
 // make `std` available when testing
 #![cfg_attr(not(test), no_std)]
+pub mod program_runner;
 pub trait Program {
     fn init(&self);
     fn update(&self);
@@ -18,7 +19,3 @@ impl Program for TestProgram {
     }
 }
 
-#[test]
-fn test_test() {
-    assert_eq!(4, 2 + 2);
-}
