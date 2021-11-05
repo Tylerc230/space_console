@@ -12,10 +12,11 @@ impl PixelBuffer {
     }
      
     pub fn fill(&mut self, color: RGB8) {
-        for row in &mut self.pixels {
-            for led in row {
-                *led = color;
-            }
-        }
+        self.pixels
+            .iter_mut()
+            .flatten()
+            .for_each(|pixel| {
+                *pixel = color;
+            });
     }
 }
