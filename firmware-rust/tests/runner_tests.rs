@@ -1,6 +1,7 @@
 use firmware_rust::Program;
 use firmware_rust::ProgramRunner;
 use firmware_rust::PixelBuffer;
+use firmware_rust::programs::simple_program::SimpleProgram;
 use smart_leds::{
     colors::*
 };
@@ -17,17 +18,6 @@ impl Program for ZeroProgram {
     }
 }
 
-struct SimpleProgram {
-}
-impl Program for SimpleProgram {
-    fn init(&self) {
-
-    }
-
-    fn update(&self, buffer: &mut PixelBuffer) {
-        buffer.fill(RED);
-    }
-}
 
 #[test]
 fn simple_program_test() {

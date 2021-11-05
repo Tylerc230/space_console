@@ -3,6 +3,8 @@
 mod program_runner;
 mod program;
 mod pixel_buffer;
+pub mod programs;
+pub use smart_leds;
 pub use program_runner::ProgramRunner;
 pub use program::Program;
 pub use pixel_buffer::PixelBuffer;

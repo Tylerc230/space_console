@@ -1,13 +1,13 @@
 use embedded_hal::timer::{CountDown, Periodic};
 use arduino_hal::delay_us;
 use void::Void;
-struct Timer {
-    micro_seconds: MicroSeconds
+pub struct Timer {
+    pub micro_seconds: MicroSeconds
 }
 impl Periodic for Timer  {
 }
 
-struct MicroSeconds(u32);
+pub struct MicroSeconds(pub u32);
 trait U32Ext {
 fn micro_seconds(self) -> MicroSeconds; 
 }
