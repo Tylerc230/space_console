@@ -1,6 +1,6 @@
-use smart_leds::RGB8;
+use crate::pixel_buffer::PixelBuffer;
 pub trait Program {
     fn init(&self);
-    fn update(&self, buffer: &mut [RGB8]);
+    fn update(&self, buffer: &mut PixelBuffer);
 }
 

@@ -1,7 +1,7 @@
 use firmware_rust::Program;
 use firmware_rust::ProgramRunner;
+use firmware_rust::PixelBuffer;
 use smart_leds::{
-    RGB8, 
     colors::*
 };
 
@@ -13,7 +13,7 @@ impl Program for ZeroProgram {
 
     }
 
-    fn update(&self, buffer: &mut [RGB8]) {
+    fn update(&self, buffer: &mut PixelBuffer) {
     }
 }
 
@@ -24,23 +24,22 @@ impl Program for SimpleProgram {
 
     }
 
-    fn update(&self, buffer: &mut [RGB8]) {
-        for led in buffer {
-            *led = RED;
-        }
+    fn update(&self, buffer: &mut PixelBuffer) {
+        buffer.fill(RED);
     }
 }
 
 #[test]
 fn simple_program_test() {
-    let mut buffer = [BLACK; 2];
+    let mut buffer = PixelBuffer::new(BLACK);
     let z = ZeroProgram {};
     let s = SimpleProgram{};
 
     let mut r = ProgramRunner{current_program: &z};
     r.run_program(&s);
     r.update(&mut buffer);
-    assert_eq!(buffer, [RED; 2]);
+    let expected = PixelBuffer::new(RED);
+    assert_eq!(buffer, expected);
 }
 
 
