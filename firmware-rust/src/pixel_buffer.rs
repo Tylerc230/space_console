@@ -2,16 +2,20 @@ use smart_leds::{
     RGB8,
     colors::*
 };
-const ROWS: usize = 2;
-const COLUMNS: usize = 2;
 #[derive(PartialEq, Eq, Debug)]
 pub struct PixelBuffer {
-    pub pixels: [[RGB8; COLUMNS]; ROWS]
+    pub pixels: [[RGB8; Self::LEDS_PER_STRIP]; Self::NUM_LED_STRIPS]
 }
 
 impl PixelBuffer {
+    pub const NUM_LED_STRIPS: usize = 2;
+    pub const LEDS_PER_STRIP: usize = 2;
     pub fn new() -> PixelBuffer {
-        PixelBuffer { pixels: [[BLACK; COLUMNS]; ROWS]}
+        Self::new_fill_color(BLACK)
+    }
+
+     pub fn new_fill_color(fill_color: RGB8) -> PixelBuffer {
+        PixelBuffer { pixels: [[fill_color; Self::LEDS_PER_STRIP]; Self::NUM_LED_STRIPS]}
     }
 
 
