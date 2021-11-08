@@ -15,14 +15,12 @@ use embedded_hal::digital::v2::OutputPin;
 fn main() -> ! {
     let dp = arduino_hal::Peripherals::take().unwrap();
     let pins = arduino_hal::pins!(dp);
-    let mut outpin = pins.d3.into_output();
-    let timer = Timer{micro_seconds: MicroSeconds(1)};
-    let mut ws = Ws2812::new(timer, outpin);
 
     let simple = fr::programs::simple_program::SimpleProgram {};
     let runner = fr::ProgramRunner { current_program: &simple};
     let mut buffer = fr::PixelBuffer::new();
-    let mut led_strip1 = LEDStrip{led_strip: ws};
+
+    let mut led_strip1 = LEDStrip::new(pins.d3.into_output());
     let mut screen = Screen {led_strips: [&mut led_strip1] };
     loop {
         runner.update(&mut buffer);
@@ -32,25 +30,41 @@ fn main() -> ! {
 }
 
 struct Screen<'a>  {
-    led_strips: [&'a mut dyn RGB8Writable; 1]
+    led_strips: [&'a mut dyn RGB8Writable; fr::PixelBuffer::NUM_LED_STRIPS]
 }
 
 impl<'a> Screen<'a> {
     fn write_buffer(&mut self, buffer: &fr::PixelBuffer) {
-        self.led_strips[0].write(buffer.pixels[0]);
+        self.led_strips[0].write(&buffer.pixels[0]);
+        //buffer
+            //.pixels
+            //.iter()
+            //.zip(self.led_strips.iter_mut())
+            //.for_each(|tup| {
+                //tup.1.write(tup.0);
+            //});
     }
 }
 
 trait RGB8Writable {
-    fn write(&mut self, led_colors: [RGB8; fr::PixelBuffer::LEDS_PER_STRIP]);
+    fn write(&mut self, led_colors: &[RGB8; fr::PixelBuffer::LEDS_PER_STRIP]);
 }
 
 struct LEDStrip<PIN> where PIN: OutputPin {
     led_strip: Ws2812<Timer, PIN>
 }
 
+impl<PIN: OutputPin> LEDStrip<PIN> {
+    fn new(pin: PIN) -> Self {
+        let timer = Timer{micro_seconds: MicroSeconds(1)};
+        let ws = Ws2812::new(timer, pin);
+        LEDStrip{led_strip: ws}
+    }
+
+}
+
 impl<PIN: OutputPin> RGB8Writable for LEDStrip<PIN> {
-    fn write(&mut self, led_colors: [RGB8; fr::PixelBuffer::LEDS_PER_STRIP]) {
+    fn write(&mut self, led_colors: &[RGB8; fr::PixelBuffer::LEDS_PER_STRIP]) {
         self.led_strip.write(led_colors.iter().cloned()).unwrap();
     }
 }

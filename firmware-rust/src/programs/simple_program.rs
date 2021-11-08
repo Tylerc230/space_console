@@ -10,6 +10,6 @@ impl Program for SimpleProgram {
     }
 
     fn update(&self, buffer: &mut PixelBuffer) {
-        buffer.fill(BLUE);
+        buffer.fill(RED);
     }
 }
