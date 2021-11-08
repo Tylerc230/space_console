@@ -22,7 +22,8 @@ fn main() -> ! {
     let simple = fr::programs::simple_program::SimpleProgram {};
     let runner = fr::ProgramRunner { current_program: &simple};
     let mut buffer = fr::PixelBuffer::new();
-    let mut screen = Screen {led_strip1: ws};
+    let mut led_strip1 = LEDStrip{led_strip: ws};
+    let mut screen = Screen {led_strips: [&mut led_strip1] };
     loop {
         runner.update(&mut buffer);
         screen.write_buffer(&buffer);
@@ -30,14 +31,26 @@ fn main() -> ! {
     }
 }
 
-struct Screen<PIN1> where PIN1: OutputPin {
-    led_strip1: Ws2812<Timer, PIN1>
+struct Screen<'a>  {
+    led_strips: [&'a mut dyn RGB8Writable; 1]
 }
 
-impl<PIN1: OutputPin> Screen<PIN1> {
+impl<'a> Screen<'a> {
     fn write_buffer(&mut self, buffer: &fr::PixelBuffer) {
-        self.led_strip1.write(buffer.pixels[0].iter().cloned()).unwrap();
+        self.led_strips[0].write(buffer.pixels[0]);
     }
 }
 
+trait RGB8Writable {
+    fn write(&mut self, led_colors: [RGB8; fr::PixelBuffer::LEDS_PER_STRIP]);
+}
 
+struct LEDStrip<PIN> where PIN: OutputPin {
+    led_strip: Ws2812<Timer, PIN>
+}
+
+impl<PIN: OutputPin> RGB8Writable for LEDStrip<PIN> {
+    fn write(&mut self, led_colors: [RGB8; fr::PixelBuffer::LEDS_PER_STRIP]) {
+        self.led_strip.write(led_colors.iter().cloned()).unwrap();
+    }
+}
