@@ -17,14 +17,13 @@ fn main() -> ! {
     let pins = arduino_hal::pins!(dp);
 
     let simple = fr::programs::simple_program::SimpleProgram {};
-    let runner = fr::ProgramRunner { current_program: &simple};
-    let mut buffer = fr::PixelBuffer::new();
+    let mut runner = fr::ProgramRunner::new(&simple);
 
     let mut led_strip1 = LEDStrip::new(pins.d3.into_output());
     let mut screen = Screen {led_strips: [&mut led_strip1] };
     loop {
-        runner.update(&mut buffer);
-        screen.write_buffer(&buffer);
+        runner.update();
+        screen.write_buffer(&runner.pixel_buffer);
         arduino_hal::delay_ms(1000 as u16);
     }
 }
