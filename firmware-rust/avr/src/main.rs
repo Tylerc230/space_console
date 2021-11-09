@@ -10,11 +10,17 @@ use hal_timer::{
 };
 use fr::smart_leds::{SmartLedsWrite, RGB8};
 use embedded_hal::digital::v2::OutputPin;
+mod serial;
+use void::ResultVoidExt;
 
 #[arduino_hal::entry]
 fn main() -> ! {
     let dp = arduino_hal::Peripherals::take().unwrap();
     let pins = arduino_hal::pins!(dp);
+
+    let serial = arduino_hal::default_serial!(dp, pins, 57600);
+    serial::init(serial);
+    serial_println!("Hello from Arduino!\r").void_unwrap();
 
     let mut simple = fr::programs::simple_program::SimpleProgram::new();
     let mut runner = fr::ProgramRunner::new(&mut simple);
@@ -45,6 +51,8 @@ struct Screen<'a>  {
 
 impl<'a> Screen<'a> {
     fn write_buffer(&mut self, buffer: &fr::PixelBuffer) {
+
+        serial_println!("BEFORE").void_unwrap();
         self.led_strips[0].write(&buffer.pixels[0]);
         self.led_strips[1].write(&buffer.pixels[1]);
         self.led_strips[2].write(&buffer.pixels[2]);
@@ -61,6 +69,8 @@ impl<'a> Screen<'a> {
             //.for_each(|tup| {
                 //tup.1.write(tup.0);
             //});
+        //
+        serial_println!("AFTER").void_unwrap();
     }
 }
 
