@@ -14,21 +14,21 @@ impl Program for ZeroProgram {
 
     }
 
-    fn update(&self, buffer: &mut PixelBuffer) {
+    fn update(&mut self, buffer: &mut PixelBuffer) {
     }
 }
 
 
 #[test]
 fn simple_program_test() {
-    let mut buffer = PixelBuffer::new(BLACK);
-    let z = ZeroProgram {};
-    let s = SimpleProgram{};
+    let mut buffer = PixelBuffer::new();
+    let mut z = ZeroProgram {};
+    let mut s = SimpleProgram::new();
 
-    let mut r = ProgramRunner{current_program: &z};
-    r.run_program(&s);
+    let mut r = ProgramRunner::new(&mut z);
+    r.run_program(&mut s);
     r.update(&mut buffer);
-    let expected = PixelBuffer::new(RED);
+    let expected = PixelBuffer::new_fill_color(RED);
     assert_eq!(buffer, expected);
 }
 
