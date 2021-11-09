@@ -8,8 +8,8 @@ pub struct PixelBuffer {
 }
 
 impl PixelBuffer {
-    pub const NUM_LED_STRIPS: usize = 1;
-    pub const LEDS_PER_STRIP: usize = 2;
+    pub const NUM_LED_STRIPS: usize = 5;
+    pub const LEDS_PER_STRIP: usize = 5;
     pub fn new() -> PixelBuffer {
         Self::new_fill_color(BLACK)
     }

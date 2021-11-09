@@ -19,8 +19,18 @@ fn main() -> ! {
     let simple = fr::programs::simple_program::SimpleProgram {};
     let mut runner = fr::ProgramRunner::new(&simple);
 
+    let mut led_strip0 = LEDStrip::new(pins.d2.into_output());
     let mut led_strip1 = LEDStrip::new(pins.d3.into_output());
-    let mut screen = Screen {led_strips: [&mut led_strip1] };
+    let mut led_strip2 = LEDStrip::new(pins.d4.into_output());
+    let mut led_strip3 = LEDStrip::new(pins.d5.into_output());
+    let mut led_strip4 = LEDStrip::new(pins.d6.into_output());
+    let mut screen = Screen {led_strips: [
+        &mut led_strip0,
+        &mut led_strip1,
+        &mut led_strip2,
+        &mut led_strip3,
+        &mut led_strip4,
+    ] };
     loop {
         runner.update();
         screen.write_buffer(&runner.pixel_buffer);
@@ -34,7 +44,7 @@ struct Screen<'a>  {
 
 impl<'a> Screen<'a> {
     fn write_buffer(&mut self, buffer: &fr::PixelBuffer) {
-        self.led_strips[0].write(&buffer.pixels[0]);
+        //self.led_strips[0].write(&buffer.pixels[0]);
         //buffer
             //.pixels
             //.iter()
@@ -42,6 +52,9 @@ impl<'a> Screen<'a> {
             //.for_each(|tup| {
                 //tup.1.write(tup.0);
             //});
+        for i in 0..self.led_strips.len() {
+            self.led_strips[i].write(&buffer.pixels[i]);
+        }
     }
 }
 
