@@ -16,12 +16,13 @@ fn main() -> ! {
     let dp = arduino_hal::Peripherals::take().unwrap();
     let pins = arduino_hal::pins!(dp);
 
-    let simple = fr::programs::simple_program::SimpleProgram {};
-    let mut runner = fr::ProgramRunner::new(&simple);
+    let mut simple = fr::programs::simple_program::SimpleProgram::new();
+    let mut runner = fr::ProgramRunner::new(&mut simple);
+    let mut buffer = fr::PixelBuffer::new();
 
-    let mut led_strip0 = LEDStrip::new(pins.d2.into_output());
-    let mut led_strip1 = LEDStrip::new(pins.d3.into_output());
-    let mut led_strip2 = LEDStrip::new(pins.d4.into_output());
+    let mut led_strip0 = LEDStrip::new(pins.d4.into_output());
+    let mut led_strip1 = LEDStrip::new(pins.d2.into_output());//not working
+    let mut led_strip2 = LEDStrip::new(pins.d3.into_output());
     let mut led_strip3 = LEDStrip::new(pins.d5.into_output());
     let mut led_strip4 = LEDStrip::new(pins.d6.into_output());
     let mut screen = Screen {led_strips: [
@@ -32,8 +33,8 @@ fn main() -> ! {
         &mut led_strip4,
     ] };
     loop {
-        runner.update();
-        screen.write_buffer(&runner.pixel_buffer);
+        runner.update(&mut buffer);
+        screen.write_buffer(&buffer);
         arduino_hal::delay_ms(1000 as u16);
     }
 }
@@ -44,6 +45,14 @@ struct Screen<'a>  {
 
 impl<'a> Screen<'a> {
     fn write_buffer(&mut self, buffer: &fr::PixelBuffer) {
+        self.led_strips[0].write(&buffer.pixels[0]);
+        self.led_strips[1].write(&buffer.pixels[1]);
+        self.led_strips[2].write(&buffer.pixels[2]);
+        self.led_strips[3].write(&buffer.pixels[3]);
+        self.led_strips[4].write(&buffer.pixels[4]);
+        //for i in 0..5 {
+            //self.led_strips[i].write(&buffer.pixels[i]);
+        //}
         //self.led_strips[0].write(&buffer.pixels[0]);
         //buffer
             //.pixels
@@ -52,9 +61,6 @@ impl<'a> Screen<'a> {
             //.for_each(|tup| {
                 //tup.1.write(tup.0);
             //});
-        for i in 0..self.led_strips.len() {
-            self.led_strips[i].write(&buffer.pixels[i]);
-        }
     }
 }
 
