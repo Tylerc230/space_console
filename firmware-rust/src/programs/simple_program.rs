@@ -1,13 +1,15 @@
 use smart_leds::colors::*;
 use super::super::Program;
 use super::super::PixelBuffer;
+use super::ProgramKind;
 
 pub struct SimpleProgram {
     step:usize,
 }
 impl SimpleProgram {
-    pub fn new() -> SimpleProgram {
-        SimpleProgram {step: 0}
+    pub fn new() -> ProgramKind {
+        let program = SimpleProgram {step: 0};
+        ProgramKind::Simple(program)
     }
 }
 impl Program for SimpleProgram {

@@ -24,7 +24,6 @@ fn main() -> ! {
 
     let mut simple = fr::programs::simple_program::SimpleProgram::new();
     let mut runner = fr::ProgramRunner::new(&mut simple);
-    let mut buffer = fr::PixelBuffer::new();
 
     let mut led_strip0 = LEDStrip::new(pins.d4.into_output());
     let mut led_strip1 = LEDStrip::new(pins.d2.into_output());//not working
@@ -39,8 +38,8 @@ fn main() -> ! {
         &mut led_strip4,
     ] };
     loop {
-        runner.update(&mut buffer);
-        screen.write_buffer(&buffer);
+        runner.update();
+        screen.write_buffer(&runner.pixel_buffer);
         arduino_hal::delay_ms(1000 as u16);
     }
 }
@@ -58,6 +57,7 @@ impl<'a> Screen<'a> {
         self.led_strips[2].write(&buffer.pixels[2]);
         self.led_strips[3].write(&buffer.pixels[3]);
         self.led_strips[4].write(&buffer.pixels[4]);
+        //crashes in loop
         //for i in 0..5 {
             //self.led_strips[i].write(&buffer.pixels[i]);
         //}
