@@ -3,15 +3,16 @@
 
 use panic_halt as _;
 use firmware_rust as fr;
-use ws2812_timer_delay::Ws2812;
-mod hal_timer;
-use hal_timer::{
-    Timer, MicroSeconds
-};
-use fr::smart_leds::{SmartLedsWrite, RGB8};
-use embedded_hal::digital::v2::OutputPin;
 mod serial;
+mod led_driver;
+mod hal_timer;
+
 use void::ResultVoidExt;
+use rotary_encoder_hal::{Direction, Rotary};
+use led_driver::{
+    LEDStrip,
+    Screen
+};
 
 #[arduino_hal::entry]
 fn main() -> ! {
@@ -37,62 +38,35 @@ fn main() -> ! {
         &mut led_strip3,
         &mut led_strip4,
     ] };
+
+    //knob A (prog select) arduino pin 10, 11
+    //knob B broken (mod select) adruino pin 12, 17
+    //outer
+    let pin_a = pins.d11.into_pull_up_input();
+    let pin_b = pins.d10.into_pull_up_input();
+    //let switch = pins.a1.into_pull_up_input();
+    //inner
+    //let pin_a = pins.d12.into_pull_up_input();
+    //let pin_b = pins.a3.into_pull_up_input();
+    //let switch = pins.a2.into_pull_up_input();
+    let mut enc = Rotary::new(pin_a, pin_b);
     loop {
+        match enc.update().unwrap() {
+            Direction::Clockwise => {
+                serial_println!("CW\r").void_unwrap();
+            }
+            Direction::CounterClockwise => {
+                serial_println!("CCW\r").void_unwrap();
+            }
+            _ => {}
+        }
         runner.update();
         screen.write_buffer(&runner.pixel_buffer);
-        arduino_hal::delay_ms(1000 as u16);
+        //arduino_hal::delay_ms(1000 as u16);
     }
 }
 
-struct Screen<'a>  {
-    led_strips: [&'a mut dyn RGB8Writable; fr::PixelBuffer::NUM_LED_STRIPS]
-}
-
-impl<'a> Screen<'a> {
-    fn write_buffer(&mut self, buffer: &fr::PixelBuffer) {
-
-        serial_println!("BEFORE").void_unwrap();
-        self.led_strips[0].write(&buffer.pixels[0]);
-        self.led_strips[1].write(&buffer.pixels[1]);
-        self.led_strips[2].write(&buffer.pixels[2]);
-        self.led_strips[3].write(&buffer.pixels[3]);
-        self.led_strips[4].write(&buffer.pixels[4]);
-        //crashes in loop
-        //for i in 0..5 {
-            //self.led_strips[i].write(&buffer.pixels[i]);
-        //}
-        //self.led_strips[0].write(&buffer.pixels[0]);
-        //buffer
-            //.pixels
-            //.iter()
-            //.zip(self.led_strips.iter_mut())
-            //.for_each(|tup| {
-                //tup.1.write(tup.0);
-            //});
-        //
-        serial_println!("AFTER").void_unwrap();
-    }
-}
-
-trait RGB8Writable {
-    fn write(&mut self, led_colors: &[RGB8; fr::PixelBuffer::LEDS_PER_STRIP]);
-}
-
-struct LEDStrip<PIN> where PIN: OutputPin {
-    led_strip: Ws2812<Timer, PIN>
-}
-
-impl<PIN: OutputPin> LEDStrip<PIN> {
-    fn new(pin: PIN) -> Self {
-        let timer = Timer{micro_seconds: MicroSeconds(1)};
-        let ws = Ws2812::new(timer, pin);
-        LEDStrip{led_strip: ws}
-    }
+struct InputDriver {
 
 }
 
-impl<PIN: OutputPin> RGB8Writable for LEDStrip<PIN> {
-    fn write(&mut self, led_colors: &[RGB8; fr::PixelBuffer::LEDS_PER_STRIP]) {
-        self.led_strip.write(led_colors.iter().cloned()).unwrap();
-    }
-}
