@@ -16,7 +16,7 @@ impl Program for ZeroProgram {
 
     }
 
-    fn update(&mut self, buffer: &mut PixelBuffer) {
+    fn update(&mut self, _buffer: &mut PixelBuffer) {
     }
 }
 

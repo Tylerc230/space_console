@@ -1,5 +1,4 @@
 use ufmt::derive::uDebug;
-use ufmt::uDebug;
 #[derive(uDebug)]
 pub struct Input {
     pub left_rotary_direction: KnobDirection,

@@ -1,4 +1,3 @@
-use firmware_rust::Program;
 use firmware_rust::ProgramRunner;
 use firmware_rust::PixelBuffer;
 use firmware_rust::programs::{
