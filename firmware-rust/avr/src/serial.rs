@@ -15,7 +15,7 @@ macro_rules! serial_println {
 ($($arg:tt)*) => {
     ::avr_device::interrupt::free(|cs| {
         if let Some(serial) = &mut *crate::serial::GLOBAL_SERIAL.borrow(&cs).borrow_mut() {
-            ::ufmt::uwriteln!(serial, $($arg)*)
+            ::firmware_rust::ufmt::uwriteln!(serial, $($arg)*)
         } else {
             Ok(())
         }

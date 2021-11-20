@@ -15,4 +15,4 @@ fi
 pushd avr
 cargo build
 popd
-avrdude -C ~/Library/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf -q  -v -b 57600 -patmega328p -carduino -P/dev/cu.usbserial-2 -D "-Uflash:w:$1"
+avrdude -C ~/Library/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf -q  -v -b 57600 -patmega328p -carduino -P/dev/cu.usbserial-3 -D "-Uflash:w:$1"
