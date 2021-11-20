@@ -6,17 +6,16 @@ use firmware_rust as fr;
 mod serial;
 mod led_driver;
 mod hal_timer;
+mod input_driver;
 
 use void::ResultVoidExt;
-use rotary_encoder_hal::{Direction, Rotary};
 use led_driver::{
     LEDStrip,
     Screen
 };
-use embedded_hal::digital::v2::InputPin;
-use embedded_hal::digital::v2::OutputPin;
-use fr::input::Input;
+use rotary_encoder_hal::Rotary;
 use firmware_rust::ufmt;
+use input_driver::InputDriver;
 
 #[arduino_hal::entry]
 fn main() -> ! {
@@ -43,7 +42,7 @@ fn main() -> ! {
         &mut led_strip4,
     ] };
     //prog select (outer) switch (a1)
-    let mut left_rotary = Rotary::new(pins.d11.into_pull_up_input(), pins.d10.into_pull_up_input());
+    let left_rotary = Rotary::new(pins.d11.into_pull_up_input(), pins.d10.into_pull_up_input());
     //let switch = pins.a1.into_pull_up_input();
 
     //mod select (inner) switch (a2)
@@ -61,29 +60,3 @@ fn main() -> ! {
     }
 }
 
-struct InputDriver<PinR1A: InputPin, PinR1B: InputPin, PinR2A: InputPin, PinR2B: InputPin> {
-    rotary1: Rotary<PinR1A, PinR1B>,
-    rotary2: Rotary<PinR2A, PinR2B>
-    
-}
-
-impl<PinR1A: InputPin, PinR1B: InputPin, PinR2A: InputPin, PinR2B: InputPin> InputDriver<PinR1A, PinR1B, PinR2A, PinR2B> {
-    fn new(left_rotary: Rotary<PinR1A, PinR1B>, right_rotary: Rotary<PinR2A, PinR2B>) -> InputDriver<PinR1A, PinR1B, PinR2A, PinR2B> {
-        InputDriver { rotary1:  left_rotary, rotary2: right_rotary }
-    }
-
-    fn update(&mut self) -> Input {
-        let dir1 = self.rotary1.update().unwrap_or(Direction::None);
-        let dir2 = self.rotary2.update().unwrap_or(Direction::None);
-        //let dir = self.rotary1.update().unwrap();
-        Input{left_rotary_direction: from(dir1), right_rotary_direction: from(dir2) }
-    }
-}
-
-fn from(dir: Direction) -> fr::input::KnobDirection {
-    match dir {
-        Direction::Clockwise => fr::input::KnobDirection::Clockwise,
-        Direction::CounterClockwise => fr::input::KnobDirection::CounterClockwise,
-        Direction::None => fr::input::KnobDirection::None
-    }
-}
