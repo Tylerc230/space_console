@@ -18,6 +18,7 @@ use rotary_encoder_hal::Rotary;
 use firmware_rust::ufmt;
 use input_driver::InputDriver;
 
+static mut INPUT_DRIVER: Option<InputDriver> = None;
 
 #[arduino_hal::entry]
 fn main() -> ! {
@@ -59,6 +60,7 @@ fn main() -> ! {
         &mut led_strip3,
         &mut led_strip4,
     ] };
+    //Left and write rotaries are switched, "left" ie right most direction is backwards
     //prog select (outer) switch (a1)
     let left_rotary = Rotary::new(pins.d11.into_pull_up_input(), pins.d10.into_pull_up_input());
     //let switch = pins.a1.into_pull_up_input();
@@ -66,11 +68,15 @@ fn main() -> ! {
     //mod select (inner) switch (a2)
     let right_rotary = Rotary::new(pins.d12.into_pull_up_input(), pins.a3.into_pull_up_input());
     //let switch = pins.a2.into_pull_up_input();
-    let mut input = InputDriver::new(left_rotary, right_rotary);
+    unsafe {
+        INPUT_DRIVER = Some(InputDriver::new(left_rotary, right_rotary));
+    }
     loop {
-        //let input_values = input.update();
-        //if input_values.left_rotary_direction != fr::input::KnobDirection::None || input_values.right_rotary_direction != fr::input::KnobDirection::None {
-            //serial_println!("Input {:#?}\r", input_values).void_unwrap();
+        //unsafe {
+            //let input_values = &INPUT_DRIVER.as_ref().unwrap().cur_input;
+            //if input_values.left_rotary_direction != fr::input::KnobDirection::None || input_values.right_rotary_direction != fr::input::KnobDirection::None {
+                //serial_println!("Input {:#?}\r", input_values).void_unwrap();
+            //}
         //}
         runner.update();
         screen.write_buffer(&runner.pixel_buffer);
@@ -79,11 +85,28 @@ fn main() -> ! {
 }
 #[avr_device::interrupt(atmega328p)]
 fn PCINT0() { //or 1 or 2
-    serial_println!("portb hit\r").void_unwrap();
+    serial_println!("pcint0 hit\r").void_unwrap();
+    unsafe {
+        if let Some(input) = INPUT_DRIVER.as_mut() {
+            serial_println!("update pcin0\r").void_unwrap();
+            input.update();//This crashes
+        }
+        let input_values = &INPUT_DRIVER.as_ref().unwrap().cur_input;
+        serial_println!("pcint0 Input {:#?}\r", input_values).void_unwrap();
+    }
 }
 
 #[avr_device::interrupt(atmega328p)]
 fn PCINT1() {
-    serial_println!("portb hit\r").void_unwrap();
+    serial_println!("pcint1 hit\r").void_unwrap();
+    unsafe {
+        if let Some(input) = INPUT_DRIVER.as_mut() {
+
+            serial_println!("update pcin1\r").void_unwrap();
+            //input.update();//This crashes
+        }
+        let input_values = &INPUT_DRIVER.as_ref().unwrap().cur_input;
+        serial_println!("pcint1 Input {:#?}\r", input_values).void_unwrap();
+    }
 }
 

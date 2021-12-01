@@ -1,23 +1,34 @@
 use firmware_rust as fr;
 use fr::input::Input;
 use rotary_encoder_hal::{Direction, Rotary};
-use embedded_hal::digital::v2::InputPin;
-pub struct InputDriver<PinR1A: InputPin, PinR1B: InputPin, PinR2A: InputPin, PinR2B: InputPin> {
-    rotary1: Rotary<PinR1A, PinR1B>,
-    rotary2: Rotary<PinR2A, PinR2B>
+
+use arduino_hal::hal::port::PB3;
+use arduino_hal::hal::port::PB2;
+use arduino_hal::hal::port::PB4;
+use arduino_hal::hal::port::PC3;
+use arduino_hal::port::{mode, Pin};
+type InputPin<P> = Pin<mode::Input<mode::PullUp>, P>;
+
+type LeftRotary = Rotary<InputPin<PB3>, InputPin<PB2>>;
+type RightRotary = Rotary<InputPin<PB4>, InputPin<PC3>>;
+
+pub struct InputDriver {
+    rotary1: LeftRotary,
+    rotary2: RightRotary,
+    pub cur_input: Input
     
 }
 
-impl<PinR1A: InputPin, PinR1B: InputPin, PinR2A: InputPin, PinR2B: InputPin> InputDriver<PinR1A, PinR1B, PinR2A, PinR2B> {
-    pub fn new(left_rotary: Rotary<PinR1A, PinR1B>, right_rotary: Rotary<PinR2A, PinR2B>) -> InputDriver<PinR1A, PinR1B, PinR2A, PinR2B> {
-        InputDriver { rotary1:  left_rotary, rotary2: right_rotary }
+impl InputDriver {
+    pub fn new(left_rotary: LeftRotary, right_rotary: RightRotary) -> InputDriver {
+        InputDriver { rotary1:  left_rotary, rotary2: right_rotary, cur_input: Input::new() }
     }
 
-    pub fn update(&mut self) -> Input {
+    pub fn update(&mut self) {
         let dir1 = self.rotary1.update().unwrap_or(Direction::None);
         let dir2 = self.rotary2.update().unwrap_or(Direction::None);
         //let dir = self.rotary1.update().unwrap();
-        Input{left_rotary_direction: from(dir1), right_rotary_direction: from(dir2) }
+        self.cur_input = Input{left_rotary_direction: from(dir1), right_rotary_direction: from(dir2) }
     }
 }
 
