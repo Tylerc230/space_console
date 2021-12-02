@@ -60,13 +60,13 @@ fn main() -> ! {
         &mut led_strip3,
         &mut led_strip4,
     ] };
-    //Left and write rotaries are switched, "left" ie right most direction is backwards
+    //right most direction is backwards
     //prog select (outer) switch (a1)
-    let left_rotary = Rotary::new(pins.d11.into_pull_up_input(), pins.d10.into_pull_up_input());
+    let right_rotary = Rotary::new(pins.d11.into_pull_up_input(), pins.d10.into_pull_up_input());
     //let switch = pins.a1.into_pull_up_input();
 
     //mod select (inner) switch (a2)
-    let right_rotary = Rotary::new(pins.d12.into_pull_up_input(), pins.a3.into_pull_up_input());
+    let left_rotary = Rotary::new(pins.d12.into_pull_up_input(), pins.a3.into_pull_up_input());
     //let switch = pins.a2.into_pull_up_input();
     unsafe {
         INPUT_DRIVER = Some(InputDriver::new(left_rotary, right_rotary));
@@ -85,24 +85,20 @@ fn main() -> ! {
 }
 #[avr_device::interrupt(atmega328p)]
 fn PCINT0() { //or 1 or 2
-    serial_println!("pcint0 hit\r").void_unwrap();
     unsafe {
         if let Some(input) = INPUT_DRIVER.as_mut() {
-            serial_println!("update pcin0\r").void_unwrap();
-            input.update();//This crashes
+            input.update();
         }
-        let input_values = &INPUT_DRIVER.as_ref().unwrap().cur_input;
-        serial_println!("pcint0 Input {:#?}\r", input_values).void_unwrap();
+        let driver = INPUT_DRIVER.as_mut().unwrap();
+        let input_values = driver.cur_input;
+        serial_println!("pcint0 Input {:#?} pins {:#?}\r", input_values, driver.pin_values()).void_unwrap();
     }
 }
 
 #[avr_device::interrupt(atmega328p)]
 fn PCINT1() {
-    serial_println!("pcint1 hit\r").void_unwrap();
     unsafe {
         if let Some(input) = INPUT_DRIVER.as_mut() {
-
-            serial_println!("update pcin1\r").void_unwrap();
             //input.update();//This crashes
         }
         let input_values = &INPUT_DRIVER.as_ref().unwrap().cur_input;

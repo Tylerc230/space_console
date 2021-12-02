@@ -1,17 +1,17 @@
 use ufmt::derive::uDebug;
-#[derive(uDebug)]
+#[derive(uDebug, Copy, Clone)]
 pub struct Input {
-    pub left_rotary_direction: KnobDirection,
-    pub right_rotary_direction: KnobDirection
+    pub left_rot_dir: KnobDirection,
+    pub right_rot_dir: KnobDirection
 }
 
 impl Input {
     pub fn new() -> Input {
-        Input { left_rotary_direction: KnobDirection::None, right_rotary_direction: KnobDirection::None}
+        Input { left_rot_dir: KnobDirection::None, right_rot_dir: KnobDirection::None}
     }
 }
 
-#[derive(uDebug, PartialEq)]
+#[derive(uDebug, PartialEq, Copy, Clone)]
 pub enum KnobDirection {
     Clockwise,
     CounterClockwise,
