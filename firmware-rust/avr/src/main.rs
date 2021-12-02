@@ -8,6 +8,8 @@ mod serial;
 mod led_driver;
 mod hal_timer;
 mod input_driver;
+use avr_device::interrupt::Mutex;
+use core::cell::RefCell;
 
 use void::ResultVoidExt;
 use led_driver::{
@@ -18,7 +20,7 @@ use rotary_encoder_hal::Rotary;
 use firmware_rust::ufmt;
 use input_driver::InputDriver;
 
-static mut INPUT_DRIVER: Option<InputDriver> = None;
+pub static INPUT_DRIVER: Mutex<RefCell<Option<InputDriver>>> = Mutex::new(RefCell::new(None));
 
 #[arduino_hal::entry]
 fn main() -> ! {
@@ -68,9 +70,9 @@ fn main() -> ! {
     //mod select (inner) switch (a2)
     let left_rotary = Rotary::new(pins.d12.into_pull_up_input(), pins.a3.into_pull_up_input());
     //let switch = pins.a2.into_pull_up_input();
-    unsafe {
-        INPUT_DRIVER = Some(InputDriver::new(left_rotary, right_rotary));
-    }
+    avr_device::interrupt::free(|cs| {
+        INPUT_DRIVER.borrow(&cs).replace(Some(InputDriver::new(left_rotary, right_rotary)));
+    });
     loop {
         //unsafe {
             //let input_values = &INPUT_DRIVER.as_ref().unwrap().cur_input;
@@ -81,28 +83,25 @@ fn main() -> ! {
         runner.update();
         screen.write_buffer(&runner.pixel_buffer);
         arduino_hal::delay_ms(1000 as u16);
-    }
+    } 
 }
+fn input_changed() {
+    avr_device::interrupt::free(|cs|{
+        if let Some(input) = &mut *INPUT_DRIVER.borrow(&cs).borrow_mut() {
+            input.update();
+            let input_values = input.cur_input;
+            serial_println!("pcint0 Input {:#?} pins {:#?}\r", input_values, input.pin_values()).void_unwrap();
+        }
+    });
+}
+
 #[avr_device::interrupt(atmega328p)]
 fn PCINT0() { //or 1 or 2
-    unsafe {
-        if let Some(input) = INPUT_DRIVER.as_mut() {
-            input.update();
-        }
-        let driver = INPUT_DRIVER.as_mut().unwrap();
-        let input_values = driver.cur_input;
-        serial_println!("pcint0 Input {:#?} pins {:#?}\r", input_values, driver.pin_values()).void_unwrap();
-    }
+    input_changed();
 }
 
 #[avr_device::interrupt(atmega328p)]
 fn PCINT1() {
-    unsafe {
-        if let Some(input) = INPUT_DRIVER.as_mut() {
-            //input.update();//This crashes
-        }
-        let input_values = &INPUT_DRIVER.as_ref().unwrap().cur_input;
-        serial_println!("pcint1 Input {:#?}\r", input_values).void_unwrap();
-    }
+    input_changed();
 }
 
