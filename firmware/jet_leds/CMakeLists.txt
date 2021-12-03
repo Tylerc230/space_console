@@ -3,10 +3,10 @@ cmake_minimum_required(VERSION 3.8.2)
 project(Jet_LEDs LANGUAGES C CXX ASM)
 set( CMAKE_CXX_FLAGS "-DFASTLED_RGBW" )
 file(GLOB jet_LEDs_src
-    "*.h"
-    "*.cpp"
-    "programs/*.h"
-    "programs/*.cpp"
+    "src/*.h"
+    "src/*.cpp"
+    "src/programs/*.h"
+    "src/programs/*.cpp"
 )
 add_executable(Jet_LEDs ${jet_LEDs_src})
 target_link_arduino_libraries(Jet_LEDs PRIVATE core)
