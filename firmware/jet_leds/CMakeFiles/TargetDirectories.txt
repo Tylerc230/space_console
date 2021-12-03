@@ -1,7 +1,0 @@
-/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/edit_cache.dir
-/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/rebuild_cache.dir
-/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/encoder.dir
-/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/SoftwareSerial.dir
-/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/fastled.dir
-/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/pro_16mhzatmega328_core_lib.dir
-/Users/tyler/code/Arduino/space_console/firmware/jet_leds/CMakeFiles/Jet_LEDs.dir

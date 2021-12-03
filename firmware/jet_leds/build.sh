@@ -1,1 +1,1 @@
-cmake -DCMAKE_TOOLCHAIN_FILE=/Users/tyler/tools/Arduino-CMake-NG/cmake/Arduino-Toolchain.cmake -DARDUINO_CMAKE_SKETCHBOOK_PATH=/Users/tyler/code/Arduino/space_console/firmware/libraries -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+cmake -B./build -DCMAKE_TOOLCHAIN_FILE=/Users/cstyle/tools/Arduino-CMake-Toolchain/Arduino-Toolchain.cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S. && cmake --build build --target upload-Jet_LEDs -- SERIAL_PORT=/dev/cu.usbserial-2
