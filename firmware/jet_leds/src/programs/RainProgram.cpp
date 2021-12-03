@@ -5,6 +5,8 @@
 #include "colorpalettes.h"
 #include "colorutils.h"
 #include "pixeltypes.h"
+#define PROG_MOD_MAX 20
+#define MAX_DROPS 100
 struct Drop {
   LEDStripID stripId;
   uint8_t currentIndex = 0;
@@ -38,15 +40,15 @@ struct Drop {
 
 void RainProgram::init(Inputs & inputs, AirplaneLEDs & airplane) {
   inputs.progMod.wrap = false;
-  inputs.progMod.max = 30;
+  inputs.progMod.max = PROG_MOD_MAX;
   createDrops(3, false, false);
 }
 
 void RainProgram::update(Inputs & inputs, AirplaneLEDs & airplane) {
   airplane.clearLEDs();
   if (inputs.progMod.didChange() || inputs.s1.didChange() || inputs.s2.didChange()) {
-    uint8_t numDrops = map(inputs.progMod.pos, 0, 30, 5, 120);
-    createDrops(inputs.progMod.pos * 4, inputs.s1.isPressed(), inputs.s2.isPressed());
+    uint8_t numDrops = map(inputs.progMod.pos, 0, PROG_MOD_MAX, 5, MAX_DROPS);
+    createDrops(numDrops, inputs.s1.isPressed(), inputs.s2.isPressed());
   }
   for (int i = 0; i < numDrops; i++) {
     Drop & drop = drops[i];
